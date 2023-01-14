@@ -86,7 +86,7 @@ div.top > p {
     text-align: center;
     line-height: 1.5rem;
     font-size: 1.25rem;
-    height: 75%;
+    height: fit-content;
     border: 2px solid wheat;
 }
 
