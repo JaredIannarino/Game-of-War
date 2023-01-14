@@ -25,7 +25,7 @@ drawCardBtn.addEventListener("click", () => {
     fetch(`https://apis.scrimba.com/deckofcards/api/deck/${deckId}/draw/?count=2`)
         .then(res => res.json())
         .then(data => {
-            remainingText.innerHTML = `Cards left: <br> <strong>${data.remaining}</strong> </br>`
+            remainingText.innerHTML = `Cards left: <br> <strong> ${data.remaining}</strong> </br>`
             cardsContainer.children[0].innerHTML = `
                 <img src=${data.cards[0].image} class="card" />
             `
