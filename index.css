@@ -88,6 +88,7 @@ div.top > p {
     text-align: center;
     height: 100%;
     border: 2px solid wheat;
+    padding: 0;
 }
 
 button:disabled {
