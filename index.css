@@ -26,7 +26,7 @@ button {
 button#new-deck {
     padding: 5px;
     width: 37%;
-    height: 80%;
+    height: 100%;
     border-radius: 15px;
 }
 
